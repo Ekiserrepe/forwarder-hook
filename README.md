@@ -96,7 +96,10 @@ Also, we need to translate address account rLSYATPWj9UECGBEeVpxwEN16CuEREK3uR to
 - 414444: D53F733E54B866B9FBDB85762071832B03A56C76
 - 4E554D: 00
 
-    const prepared = {
+
+
+```    
+    const prepared = {  
       TransactionType: "Invoke",
       Account: your_account_address,
       Flags: 0,
@@ -112,10 +115,11 @@ Also, we need to translate address account rLSYATPWj9UECGBEeVpxwEN16CuEREK3uR to
             HookParameterName: "4E554D",
             HookParameterValue: "00",
           },
-        },
-      ],
+          },
+    ],
       ...networkInfo.txValues,
     };
+```
 
 ## How to delete addresses?
 
