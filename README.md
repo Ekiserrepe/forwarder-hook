@@ -174,6 +174,34 @@ Same as Testnet but changing the hookhash. The Hookhash is D22582E8BAF59FC682DEF
       ...networkInfo.txValues,
     };
 ```
+
+## How to install the Forwarder Hook on JS Testnet?
+
+Same as Testnet but changing the hookhash. The Hookhash is 6DD86B01680EC959460A20A3D918DA90DA0A7A5C5347C5CDFC7E34EBF260C3E9.
+
+1. You can do it by [XRPLWin Hook Install Tool](https://xahau-jshooks-testnet.xrplwin.com/tools/hook/from-hash)
+
+2. Or you can do it sending the transaction below:
+
+```
+    const prepared = {
+      "TransactionType": "SetHook",
+      "Account": your_account_address,
+      "Flags": 0,
+      "Hooks": [
+        {
+          "Hook": {
+            "HookHash": "6DD86B01680EC959460A20A3D918DA90DA0A7A5C5347C5CDFC7E34EBF260C3E9",
+            "HookNamespace": "0000000000000000000000000000000000000000000000000000000000000000",
+            "HookOn": "FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF7FFFFFFFFFFFF7FFFFFBFFFFE",
+          }
+        }
+      ],
+      ...networkInfo.txValues,
+    };
+```
+
+
 ## Video Tutorial
 
 The user @[ainittomai](https://www.x.com/ainittomai) has created a video tutorial to learn how to use this hook on Xahau Testnet: [https://www.youtube.com/watch?v=rf8zSmrZkPA](https://www.youtube.com/watch?v=rf8zSmrZkPA)
