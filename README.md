@@ -210,6 +210,20 @@ Same as Testnet but changing the hookhash. The Hookhash is 6DD86B01680EC959460A2
 
 The user @[ainittomai](https://www.x.com/ainittomai) has created a video tutorial to learn how to use this hook on Xahau Testnet: [https://www.youtube.com/watch?v=rf8zSmrZkPA](https://www.youtube.com/watch?v=rf8zSmrZkPA)
 
+## How to improve this hook?
+
+This is just a hook for others to practice and create better versions. If you don't have imagination and prefer to have some ideas available here are some:
+
+- Adapt the hook to allow sending IOUs
+
+- Use unequal amounts for each recipient. Either using percentages or some other way. 
+
+- Generate an editable system of amounts or percentages for each recipient with Hook Params.
+
+## Special thanks
+
+Thanks to [@denis_angell](https://x.com/angell_denis) , [@Satish_nl](https://x.com/satish_nl) and [@TeQu](https://x.com/_tequ_) for being there when i get stuck.
+
 ## Last Thoughts
 
 Created by @[ekiserrepe](https://x.com/ekiserrepe). You can find more of my projects on [ekiserrepe.com](https://www.ekiserrepe.com)
